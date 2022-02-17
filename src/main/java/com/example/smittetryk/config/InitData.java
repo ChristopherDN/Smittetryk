@@ -76,8 +76,8 @@ public class InitData implements CommandLineRunner {
         countyRepository.save(region);
 
         region.setName("Allerød");
-        region.setCountyCode("0191");
-        region.setHref("http://api.dataforsyningen.dk/kommuner/0191");
+        region.setCountyCode("3450");
+        region.setHref("http://api.dataforsyningen.dk/kommuner/3450");
         countyRepository.save(region);
 
     }
