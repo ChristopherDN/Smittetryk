@@ -18,7 +18,7 @@ class SmittetrykApplicationTests {
     @Test
     void testFunc() {
         List<County> counties = countyRepository.findAll();
-        Assertions.assertEquals(13, counties.size());
+        Assertions.assertEquals(13 , counties.size());
 
     }
 
