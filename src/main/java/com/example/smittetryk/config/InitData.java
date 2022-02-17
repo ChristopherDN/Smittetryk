@@ -66,15 +66,19 @@ public class InitData implements CommandLineRunner {
         countyRepository.save(region);
 
         region.setName("Herlev");
-        region.setCountyCode("0151");
+        region.setCountyCode("0163");
         region.setHref("http://api.dataforsyningen.dk/kommuner/0163");
         countyRepository.save(region);
 
         region.setName("Albertslund");
-        region.setCountyCode("0151");
+        region.setCountyCode("0165");
         region.setHref("http://api.dataforsyningen.dk/kommuner/0165");
         countyRepository.save(region);
 
+        region.setName("Allerød");
+        region.setCountyCode("0191");
+        region.setHref("http://api.dataforsyningen.dk/kommuner/0191");
+        countyRepository.save(region);
 
     }
 }
